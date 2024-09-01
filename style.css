@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #e0ddd8;
+    min-height: 100vh;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #505050;
+}
+.nav li{
+    margin-right:30px;
+}
+.nav{
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    align-items:center;
+    color: white;
+}
+.nav_image{
+    display: inline;
+    height: 70px;
+    width: auto;
+    padding: 0.2em;
+    mix-blend-mode:multiply ;
+    /* margin: 70px 0 0 400px; */
+
+}
+.search-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 25px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 320px;
+  }
+.search-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.search-text {
+    margin-left: 5px;
+    color: #333;
+}
+.main1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;  
+}
+.register{
+    margin-top:50px ;
+}
+#button{
+    height: 35px;
+    width: 170px;
+    border-radius:20px ;
+    border: 2px solid black;
+    font-size: large;
+}
+.main2{
+    margin-top:50px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one, .two, .three{
+    font-size: 22px;
+    background-color: gray;
+    border: 2px solid black;
+    height:50vh;
+    width: 25vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Explore{
+    margin-top: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius:20px ;
+    border: 2px solid black;
+    font-size: large;
+}
+#Explore1 , #Explore3 {
+    margin-top: 43.5px;
+}
+
+.main4{
+    text-align: center;
+}
